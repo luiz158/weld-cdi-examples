@@ -1,8 +1,4 @@
-buid/
-conf/
-bin/
-target/
-.settings/
 .classpath
+.settings
 .project
-tomcat
+/build
