@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.cdi.chapter2.model.Account;
 import com.cdi.chapter2.qualifier.Administrator;
+import com.cdi.chapter2.qualifier.UserAccount;
 
 @WebServlet("/account")
 public class ServletAccount extends HttpServlet {
@@ -22,6 +23,7 @@ public class ServletAccount extends HttpServlet {
 	private static final long serialVersionUID = -1107410638138302111L;
 
 	@Inject
+	@UserAccount
 	private Account account;
 
 	@Inject

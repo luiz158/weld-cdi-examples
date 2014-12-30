@@ -1,4 +1,4 @@
-package com.cdi.chapter2.model;
+package com.cdi.chapter2.qualifier;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.TYPE;

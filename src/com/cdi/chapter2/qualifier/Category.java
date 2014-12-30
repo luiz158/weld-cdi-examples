@@ -1,4 +1,4 @@
-package com.cdi.chapter2.model;
+package com.cdi.chapter2.qualifier;
 
 public enum Category {
 

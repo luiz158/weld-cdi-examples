@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.cdi.chapter2.model.Book;
-import com.cdi.chapter2.model.Category;
 import com.cdi.chapter2.model.SearchBook;
+import com.cdi.chapter2.qualifier.Book;
+import com.cdi.chapter2.qualifier.Category;
 
 @WebServlet(urlPatterns = {"/book"})
 public class ServletBookQualifierMember extends HttpServlet {
